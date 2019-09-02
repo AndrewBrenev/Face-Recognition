@@ -1,104 +1,103 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
+# Editor temporary/working/backup files #
+#########################################
+.#*
+[#]*#
+*~
+*$
+*.bak
+*.diff
+*.org
+.project
+*.rej
+.settings/
+.*.sw[nop]
+.sw[nop]
+*.tmp
+*.coverage.*
+/.idea
 
-# C extensions
+# Compiled source #
+###################
+*.a
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.py[ocd]
 *.so
 
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.bz2
+*.bzip2
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.tbz2
+*.tgz
+*.zip
 
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
-
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Unit test / coverage reports
-htmlcov/
-.tox/
+# Python files #
+################
+# setup.py working directory
+/build
+# sphinx build directory
+/_build
+# setup.py dist directory
+/dist
+/doc/build
+/doc/cdoc/build
+/MANIFEST
+# Egg metadata
+*.egg-info
+/.eggs
+# The shelf plugin uses this dir
+./.shelf
+# coverage reports
 .coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
-.pytest_cache/
+# ipython files
+**/.ipynb_checkpoints
+__pycache__
 
-# Translations
-*.mo
-*.pot
-
-# Django stuff:
+# Logs and databases #
+######################
 *.log
-local_settings.py
-db.sqlite3
+*.sqlite
 
-# Flask stuff:
-instance/
-.webassets-cache
+# Patches #
+###########
+*.patch
+*.diff
 
-# Scrapy stuff:
-.scrapy
+# OS generated files #
+######################
+.DS_Store*
+.VolumeIcon.icns
+.fseventsd
+Icon?
+.gdb_history
+ehthumbs.db
+Thumbs.db
 
-# Sphinx documentation
-docs/_build/
+# pytest-cov #
+##############
+/.cache
+*,cover
+htmlcov
 
-# PyBuilder
-target/
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# pyenv
-.python-version
-
-# celery beat schedule file
-celerybeat-schedule
-
-# SageMath parsed files
-*.sage.py
-
-# Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-
-# Spyder project settings
-.spyderproject
-.spyproject
-
-# Rope project settings
-.ropeproject
-
-# mkdocs documentation
-/site
-
-# mypy
-.mypy_cache/
+# Things specific to this project #
+###################################
+/.anaconda
+/.envs
+/record.txt
+/docs/build
+/examples/movies/movies.db
+*.orig
+CHANGELOG.temp
